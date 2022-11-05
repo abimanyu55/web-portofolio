@@ -1,0 +1,44 @@
+header {
+  
+}
+
+#navlink {
+   text-align: center;
+   t
+}
+
+#nav{
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  padding-top: 10px;   
+  justify-content: center;
+  text-align: center;
+  background-color: #347520;
+  display: flex;
+}
+
+#navbar {
+  display: flex;
+margin-right: 2rem;
+}
+
+.profil {
+  display: flex;
+}
+
+#gambar {
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+}
+
+#deskrip {
+ display: flex;
+ justify-content: left;  
+ text-align: right;
+ 
+ margin-bottom: 10px;
+    font-size: 20px;
+}
+
