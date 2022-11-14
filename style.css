@@ -1,30 +1,58 @@
-header {
-  
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+*,html,body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#navlink {
-   text-align: center;
-   t
+body {
+  font-family: 'Chakra Petch', cursive;
 }
 
-#nav{
-  flex-direction: column;
-  align-items: center;
-  padding: 30px;
-  padding-top: 10px;   
+section {
+  height: 100vh;
+}
+
+.kontener {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: darkolivegreen;
+}
+
+
+.navbar{
+  width: 100%;
+  height: 80px;
+  background-color: darkgreen;
+  position: sticky;
+}
+
+.nav {
+  display: flex;
   justify-content: center;
-  text-align: center;
-  background-color: #347520;
-  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
-#navbar {
-  display: flex;
-margin-right: 2rem;
+.navli {
+  padding: 24px;
+  margin: 14px;
+  cursor: pointer;
+  list-style-type: none;
 }
 
-.profil {
-  display: flex;
+.navlink {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.4em;
 }
 
 #gambar {
@@ -33,12 +61,7 @@ margin-right: 2rem;
   height: 220px;
 }
 
-#deskrip {
- display: flex;
- justify-content: left;  
- text-align: right;
- 
- margin-bottom: 10px;
-    font-size: 20px;
+.teks {
+  color: white;
+  display: flex;
 }
-
