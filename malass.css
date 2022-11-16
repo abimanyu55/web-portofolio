@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+body {
+  font-family: 'Chakra Petch', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.navb {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #106308;
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.navli {
+  padding: 24px;
+  margin: 14px;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+a{
+  margin: 15px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.profil {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+}
