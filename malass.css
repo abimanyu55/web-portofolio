@@ -6,45 +6,68 @@ body {
   padding: 0;
 }
 
-.navb {
-  position: fixed;
+nav {
+  position: sticky;
+  top: 0;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
   background-color: #106308;
   width: 100%;
-  height: 70px;
   z-index: 1;
 }
 
-.nav {
+.navlinks-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100%;
 }
 
-.navli {
-  padding: 24px;
-  margin: 14px;
-  cursor: pointer;
-  list-style-type: none;
-}
-
-a{
-  margin: 15px;
-  color: white;
+.navlinks a{
   text-decoration: none;
+  padding: 24px;
+  color: white;
   text-transform: uppercase;
+  
+  display: block;
+  cursor: pointer;
+}
+
+.navlinks a:hover{
+  background: rgb(0, 0, 0, .5);
 }
 
 .profil {
   position: relative;
+  
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 700px;
+}
+
+.profil > *{
+  flex: 1 1 0;
+}
+
+.teks-profil{
+  padding: 2rem;
+}
+
+footer{
+  background: #222;
+  padding: 2rem;
+  color: #ddd;
+}
+
+@media screen and (min-width: 50em){
+  .profil{
+    flex-direction: row;
+  }
 }
