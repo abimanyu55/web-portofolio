@@ -21,28 +21,32 @@ nav {
 .navlinks-container {
   padding: 0;
   margin: 0;
-
+  list-style: none;
+  
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.navlinks {
+.navlinks a{
+  text-decoration: none;
   padding: 24px;
+  color: white;
+  text-transform: uppercase;
+  
+  display: block;
   cursor: pointer;
-  list-style-type: none;
 }
 
-a{
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
+.navlinks a:hover{
+  background: rgb(0, 0, 0, .5);
 }
 
 .profil {
   position: relative;
   
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   width: 100%;
@@ -54,4 +58,16 @@ a{
 
 .teks-profil{
   padding: 2rem;
+}
+
+footer{
+  background: #222;
+  padding: 2rem;
+  color: #ddd;
+}
+
+@media screen and (min-width: 50em){
+  .profil{
+    flex-direction: row;
+  }
 }
